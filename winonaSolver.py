@@ -17,7 +17,10 @@ def average(path):
 def weightAge(path, avg):
     wb=xlrd.open_workbook(path)
     sh1=wb.sheet_by_index(0)
-    
+    for index in range(1, 2):
+        x=
+        if x>0 and x=<5:
+            sheet.cell(index
 
 #---Actuall Program---
 path=input("What is the path of your data relative to this program?")
